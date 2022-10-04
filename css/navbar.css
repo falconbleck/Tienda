@@ -1,0 +1,58 @@
+/** general reference **/
+
+header
+{
+  /** position: relative (respects every other element, has margin), absolute (top: 0px, left, right, width: 100%, etc, loses margin, lets you put it everywhere you want), fixed **/
+  position: absolute;
+  width: 100%;
+  background-image: linear-gradient(-0deg, #FF9900, #FF9900); /** colours **/
+  font-size: 15px;
+}
+
+li
+{
+  color: white; /** text colour **/
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+body
+{
+  min-height: 100%;
+  min-width: 100%;
+}
+
+footer
+{
+  position: fixed;
+  min-width: 100%;
+  width: 100%;
+  /** height: 100px; **/
+  /** padding: 1rem; **/
+  font-size: 15px;
+  font-family: 'arial';
+  text-align: center;
+  bottom: 0px;
+  /**left:  0; **/
+  background-image: linear-gradient(-0deg, #FF9900, #FF9900); /** colours **/
+  
+}
+
+/** class reference **/
+
+.description
+{
+  font-size: 35px;
+  top: 100px;
+  font-family: 'calibri';
+  max-width: 100%;
+  text-align: left; 
+}
+
+/**
+.main
+{
+  min-height: calc(100vh - 100px);
+}**/

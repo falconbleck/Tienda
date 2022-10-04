@@ -1,0 +1,21 @@
+.dataTables_info{
+  visibility: hidden;
+ }
+
+label{
+  visibility: hidden;  
+ }
+
+td{
+  font-size: 12px;
+ }
+
+table{
+  position: relative;
+  margin: 0 auto;
+ }
+
+.pagination{
+  position: relative;
+  left: 200px;
+ }
